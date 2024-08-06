@@ -11,3 +11,4 @@ while (count <= 20) {
     if (count % 2 !== 0) sum = count + sum;
     count = count + 1;
 }
+console.log(sum);
