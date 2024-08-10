@@ -21,7 +21,4 @@ if (
     hasTemporaryPass === true
 )
     isAccess = true;
-{
-    alert("Access is open!");
-}
 // your code
