@@ -29,7 +29,7 @@
 
 // console.log(numNew);
 
-const array = [1, 2, 3, 2, 1, 4];
+// const array = [1, 2, 3, 2, 1, 4];
 
 // function includesElement(array, element) {
 //     for (let i = 0; i < array.length; i++) {
@@ -40,14 +40,37 @@ const array = [1, 2, 3, 2, 1, 4];
 //     return false;
 // }
 
+// function findUniqueElements(array) {
+//     const uniqueElements = [];
+//     for (let i = 0; i < array.length; i++) {
+//         if ((array = [...new Set(array)])) {
+//             const uniqueElements = [...new Set(array)];
+//             return uniqueElements;
+//         }
+//     }
+// }
+
+// console.log(findUniqueElements(array));
+
+const array = [1, 2, 3, 3, 2, 1];
+
+function includesElement(array, element) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === element) {
+            return true;
+        }
+    }
+    return false;
+}
+
 function findUniqueElements(array) {
     const uniqueElements = [];
     for (let i = 0; i < array.length; i++) {
-        if ((array = [...new Set(array)])) {
-            const uniqueElements = [...new Set(array)];
-            return uniqueElements;
+        if (!includesElement(uniqueElements, array[i])) {
+            uniqueElements.push(array[i]);
         }
     }
+    return uniqueElements;
 }
 
 console.log(findUniqueElements(array));
