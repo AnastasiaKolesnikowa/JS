@@ -12,4 +12,13 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-function doubleEachCharacter() {}
+let str = `str`;
+// console.log(str.replace(/./g, "$&$&"));
+
+function doubleEachCharacter(stroka) {
+    for (let i = 0; i < stroka.length; i++) {
+        return stroka.replace(/./g, "$&$&");
+    }
+}
+const result = doubleEachCharacter(str);
+console.log(result);
