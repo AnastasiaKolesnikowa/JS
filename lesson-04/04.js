@@ -12,7 +12,8 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-let str = `str`;
+let str = `!@#`;
+
 // console.log(str.replace(/./g, "$&$&"));
 
 function doubleEachCharacter(stroka) {
