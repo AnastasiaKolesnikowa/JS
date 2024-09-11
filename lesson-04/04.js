@@ -12,14 +12,29 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-let str = `!@#`;
+// let str = `!@#`;
 
-// console.log(str.replace(/./g, "$&$&"));
+// // console.log(str.replace(/./g, "$&$&"));
 
-function doubleEachCharacter(stroka) {
-    for (let i = 0; i < stroka.length; i++) {
-        return stroka.replace(/./g, "$&$&");
+// function doubleEachCharacter(stroka) {
+//     for (let i = 0; i < stroka.length; i++) {
+//         return stroka.replace(/./g, "$&$&");
+//     }
+// }
+// const result = doubleEachCharacter(str);
+// console.log(result);
+
+const str = "!@#";
+const arr = str.split("");
+
+function doubleEachCharacter(array) {
+    let newArr = [];
+    let strNew;
+    for (let i = 0; i < array.length; i++) {
+        newArr.push(array[i] + array[i]);
     }
+    strNew = newArr.join("");
+    return strNew;
 }
-const result = doubleEachCharacter(str);
-console.log(result);
+
+console.log(doubleEachCharacter(arr));
