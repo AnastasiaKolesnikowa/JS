@@ -13,10 +13,10 @@ let dice1 = randomNumber; // your code
 let dice2 = randomNumber; // your code
 let isWinningDouble = (dice1 && dice1) > 3 && dice1 == dice2; // your code
 
-console.log("Первый бросок: " + dice1);
-console.log("Второй бросок: " + dice2);
-if (isWinningDouble) {
-    console.log("Выигрышный дубль!");
-} else {
-    console.log("Не выигрышный дубль.");
-}
+// console.log("Первый бросок: " + dice1);
+// console.log("Второй бросок: " + dice2);
+// if (isWinningDouble) {
+//     console.log("Выигрышный дубль!");
+// } else {
+//     console.log("Не выигрышный дубль.");
+// }

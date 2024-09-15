@@ -23,5 +23,5 @@ if (score <= 100 && score >= 90) {
     grade = "A";
 }
 
-console.log(grade);
+// console.log(grade);
 // your code

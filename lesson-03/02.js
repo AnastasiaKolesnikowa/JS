@@ -12,4 +12,4 @@ function isEven(a) {
     }
     return c;
 }
-isEven(74);
+// isEven(74);

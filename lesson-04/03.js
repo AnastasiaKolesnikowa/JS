@@ -39,7 +39,7 @@ function findCommonElements(array1, array2) {
     return newArr;
 }
 
-console.log(findCommonElements(arr1, arr2));
+// console.log(findCommonElements(arr1, arr2));
 
 // const num1 = [1, 2, 3];
 // const num2 = [2, 3, 4];

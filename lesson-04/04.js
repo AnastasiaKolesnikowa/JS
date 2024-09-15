@@ -37,4 +37,4 @@ function doubleEachCharacter(array) {
     return strNew;
 }
 
-console.log(doubleEachCharacter(arr));
+// console.log(doubleEachCharacter(arr));

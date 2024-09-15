@@ -8,4 +8,4 @@ while (count <= 20) {
     sum = count + sum;
     count = count + 1;
 }
-console.log(sum);
+// console.log(sum);

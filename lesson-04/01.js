@@ -26,4 +26,4 @@ function includesElement(array, element) {
     return false;
 }
 const result = includesElement(array, element);
-console.log(result);
+// console.log(result);

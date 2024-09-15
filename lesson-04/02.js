@@ -73,4 +73,4 @@ function findUniqueElements(array) {
     return uniqueElements;
 }
 
-console.log(findUniqueElements(array));
+// console.log(findUniqueElements(array));

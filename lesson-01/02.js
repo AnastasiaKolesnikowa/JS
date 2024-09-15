@@ -12,4 +12,4 @@ while (count <= 10) {
     factorial = count * factorial;
     count = count + 1;
 }
-console.log(factorial);
+// console.log(factorial);

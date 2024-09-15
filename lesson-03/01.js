@@ -5,8 +5,8 @@ function calculateAverage(a, b) {
     c = (a + b) / 2;
     return c;
 }
-let first = +prompt("First number");
-let second = +prompt("Second number");
+// let first = +prompt("First number");
+// let second = +prompt("Second number");
 
-const total = calculateAverage(first, second);
-console.log(total);
+// const total = calculateAverage(first, second);
+// console.log(total);
