@@ -9,15 +9,27 @@
 * truncate("Короткая строка", 20) // Ожидаемый результат: "Короткая строка"
 */
 
-function truncate(str, maxLength) {
-    if (str.lenght <= maxLength) {
-        return str;
-    } else str.lenght > maxLength;
-    return str.slice(0, maxLength) + "...";
-}
+// function truncate(str, maxLength) {
+//     if (str.length <= maxLength) {
+//         return str;
+//     }
+//     return str.slice(0, maxLength) + "...";
+// }
 
-console.log(truncate("Вот, что мне действительно нравится в этом", 20));
+// console.log(truncate("Вот, что мне действительно нравится в этом", 20));
+// console.log(truncate("Короткая строка", 20));
 
 // str = "Короткая строка"
 // str.lenght = 15
 // maxLength = 10
+
+function truncate(str, maxLength) {
+    return str.length <= maxLength ? str : str.slice(0, maxLength) + "...";
+
+    // return str.length > maxLength ? str.slice(0, maxLength) + "..." : str;
+}
+
+// console.log(truncate("Вот, что мне действительно нравится в этом", 20));
+// console.log(truncate("Короткая строка", 20));
+// console.log(truncate("", 20));
+// console.log(truncate("", 20));
